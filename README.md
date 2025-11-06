@@ -52,8 +52,8 @@ pkg install python git
 ### 2. Projeyi İndir
 ```bash
 cd ~
-git clone https://github.com/KULLANICI_ADINIZ/termux-panel.git
-cd termux-panel
+git clone https://github.com/seghobs/termuxpanel.git
+cd termuxpanel
 ```
 
 ### 3. Python Paketlerini Kur
