@@ -1,6 +1,20 @@
 # 🚀 Termux Panel - Modern Web Yönetim Paneli
 
-Flask + Bootstrap ile geliştirilmiş, **Android Termux** için özel tasarlanmış modern web yönetim arayüzü.
+Flask + Bootstrap ile geliştirilmiş, **Android Termux** için özel tasarıanmış modern web yönetim arayüzü.
+
+## ⚡ Hızlı Başlangıç
+
+**Termux'ta tek komutla kur:**
+
+```bash
+curl -sL https://raw.githubusercontent.com/seghobs/termuxpanel/main/quick_install.sh | bash
+```
+
+Termux'u yeniden başlatın - **Hazır!** 🎉
+
+---
+
+## ✨ Özellikler
 
 ## ✨ Özellikler
 
@@ -43,7 +57,28 @@ Flask + Bootstrap ile geliştirilmiş, **Android Termux** için özel tasarlanm�
 
 ## 📱 Termux Kurulumu
 
-### 1. Gerekli Paketleri Kur
+### 🚀 Hızlı Kurulum (Tek Komut!)
+
+Termux'ta bu komutu çalıştırın:
+
+```bash
+curl -sL https://raw.githubusercontent.com/seghobs/termuxpanel/main/quick_install.sh | bash
+```
+
+**Bu komut:**
+- ✅ Python ve Git'i kurar
+- ✅ Projeyi indirir
+- ✅ Tüm paketleri kurar
+- ✅ Otomatik başlatmayı ayarlar
+- ✅ Her şeyi hazırlar!
+
+**Sonra sadece Termux'u yeniden başlatın - Hazır!** 🎉
+
+---
+
+### 🛠️ Manuel Kurulum
+
+#### 1. Gerekli Paketleri Kur
 ```bash
 pkg update && pkg upgrade
 pkg install python git
